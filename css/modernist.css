@@ -1,0 +1,63 @@
+*{
+	font-family: helvetica;
+}
+body{
+	border-top: 4px solid #76c38f;
+	background-image: /*linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),*/url('../images/modernist/bg2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	
+}
+nav{
+	position: relative;
+}
+.custom_layer
+nav ul li a{
+	color: #fff;
+}
+nav ul li a:hover{
+	color:#fff;
+}
+nav ul li:hover{
+	background-color: #76c38f;
+}
+.custom_carousel{
+	margin-top: 25px;
+}
+.cp{
+	padding-top: 120px;
+	padding-left: 60px;
+}
+.cp2{
+	padding-top: 50px;
+	padding-right: 80px;
+}
+.card{
+	background-color: transparent;
+	padding-bottom: 50px;
+}
+.custom_text{
+	font-size: 45px;
+	line-height: 50px;
+}
+.custom_img{
+	height: 390px;
+	width:390px;
+	border: 9px solid #76c38f;
+	border-radius: 50%;
+}
+.carousel-control-prev{
+	margin-left: -70px;
+}
+.carousel-control-next{
+	margin-right: -70px;
+}
+
+/*custom_container*/
+/*.custom_container{
+	margin-top: 40px;
+}
+.custom_container .container{
+	background-color: transparent;
+}*/

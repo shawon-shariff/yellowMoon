@@ -1,0 +1,223 @@
+/*global css starts*/
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.color-yellow{
+	color: #ffe600;
+}
+/*global css ends*/
+
+
+/*top-bg css starts*/
+.top-bg{
+	background-image: url('../images/yellowmoon/middle-bg1.jpg');
+	width: 100%;
+	height: 550px;
+	background-size: cover;
+	background-position: center;
+}
+.top-bg .custom-box{
+	padding-top:150px;
+}
+.spacing{
+	letter-spacing: 5px;
+}
+/*top bg css ends*/
+
+/*nav css starts*/
+nav{
+	background-color: #000;
+	border-bottom: 1px solid #ffe600;
+}
+nav ul li a{
+	color: #fff;
+}
+.active{
+	border:1px solid #ffe600;
+
+}
+nav ul li a:hover {
+    color:  #ffe600;
+    padding: 0; /*to force nav item to dance*/
+}
+/*nav css ends*/
+
+/*about css starts*/
+.about{
+	background-color: #000;
+}
+.about .container{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.about .card{
+	background-color: #000;
+}
+/*about css ends*/
+
+/*middle-bg css starts*/
+.middle-bg{
+	background-image: url('../images/yellowmoon/top-bg.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.middle-bg .container{
+	padding-top: 150px;
+	padding-bottom: 100px;
+}
+/*middle-bg css ends*/
+
+/*portfolio css starts*/
+.portfolio{
+	background-color: #000;
+}
+.portfolio .container{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.img-hover{
+	position: relative;
+}
+.div-hover{
+	position: absolute;
+    background-color: #ffe600;
+    width: 255px;
+    height: 191px;
+    top: 0;
+    opacity: 0;
+}
+.img-hover:hover .div-hover{
+	opacity: 0.8;
+	transition: 0.8s;
+}
+/*portfolio css ends*/
+
+/*clients css starts*/
+.clients{
+	background-color: #424245;
+}
+.clients .container{
+	padding-top: 80px;
+	padding-bottom: 100px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.row{
+	margin-top: 60px;
+}
+/*clients css ends*/
+
+/*contact css starts*/
+.contact{
+	background-color: #000;
+}
+.contact .container{
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+form .form-control{
+	background-color: #ffe600;
+}
+/*contact css end*/
+
+
+/*responsive*/
+.navbar-toggler {
+    border: none;
+}
+
+.nav-link{
+	color:white !important;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+	nav .nav-link{
+		float: right;
+	}
+	nav .active{
+		border:none;
+	}
+	nav .active .nav-link{
+		color:yellow !important;
+	}
+	.portfolio .img-hover .div-hover{
+		display: none;
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	.img-hover{
+		position: relative;
+	}
+	.div-hover{
+		position: absolute;
+	    background-color: #ffe600;
+	    width: 240px;
+   		height: 180px;
+	    top: 0;
+	    opacity: 0;
+	}
+	.img-hover:hover .div-hover{
+		opacity: 0.8;
+		transition: 0.8s;
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.img-hover{
+		position: relative;
+	}
+	.div-hover{
+		position: absolute;
+	    background-color: #ffe600;
+	    width: 210px;
+    	height: 158px;
+	    top: 0;
+	    opacity: 0;
+	}
+	.img-hover:hover .div-hover{
+		opacity: 0.8;
+		transition: 0.8s;
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.img-hover{
+		position: relative;
+	}
+	.div-hover{
+		position: absolute;
+	    background-color: #ffe600;
+	    width: 210px;
+    	height: 158px;
+	    top: 0;
+	    opacity: 0;
+	}
+	.img-hover:hover .div-hover{
+		opacity: 0.8;
+		transition: 0.8s;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.img-hover{
+		position: relative;
+	}
+	.div-hover{
+		position: absolute;
+	    background-color: #ffe600;
+	    width: 255px;
+	    height: 192px;
+	    top: 0;
+	    opacity: 0;
+	}
+	.img-hover:hover .div-hover{
+		opacity: 0.8;
+		transition: 0.8s;
+	}
+}
